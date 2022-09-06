@@ -6,7 +6,7 @@ void SchoolSystem::run()
 	int counter = 0;
 	while (true)
 	{
-		std::count << "loop: " << counter << "\n";
+		std::cout<< "loop: " << counter << "\n";
 		counter++;
 		std::cin.get();
 	}
@@ -24,4 +24,3 @@ void SchoolSystem::addStudent()
 void SchoolSystem::RemoveStudent()
 {
 
-}
